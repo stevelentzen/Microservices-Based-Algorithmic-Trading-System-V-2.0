@@ -36,7 +36,7 @@ Please use this repository for the infrastructure and for all the Quant Trading 
 
 1. Downlod/Clone the Github Repository (current)
 2. Run docker compose, to start with 5 celery workers:  
- ```docker-compose -f "docker-compose.yml" up --build -d scale worker=5```  
+ ```docker-compose -f "docker-compose.yml" up --build -d --scale worker=5```  
 First run would take some time as all the Docker base images need to be downloaded.  
 Once its is running, you can access the following components from the webaddress
     * Dash Web-app:http://localhost:8050
