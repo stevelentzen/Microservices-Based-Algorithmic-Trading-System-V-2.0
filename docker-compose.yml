@@ -1,5 +1,5 @@
 version: "3.7"
-
+name: "mbats2"
 services:
   minio-image:
     container_name: minio-image
